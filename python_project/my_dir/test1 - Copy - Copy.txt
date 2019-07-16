@@ -1,0 +1,35 @@
+User guide
+
+introduction :RFC000123
+
+management platform for wired and wireless
+2. easy to monitor =[ network with feauture [AppRF and VisualRF]via]
+3. manage [ aurba switch, providing CPU, memory and interface monitoring , config management,firmware update,..]
+4. airwave impolement ZTP for =[ Aruba instand Aps(IAPs) , Aruba Switches, branch controllers]
+
+Aruba mobility controllers
+
+1.[A]support = [Global and Group Leavel configuration of M.controller]
+2. several controller can working togather -->Aps provied -->[hierarichical, redundant M.controller system]
+3. M.controller provied:
+     1. Ap tunnel termination and transalational bridging 
+     2. GRE tunnal between each Ap and Mobility controller
+        -----------------------------------?
+     3. Virutual connection point to wireless clients
+        -----------------------------------?
+     4. frame Translation  form 802.11 to 802.3 and  802.3 to 802.11 + encryption and decryption  of wifi traffic
+     5. QOS of service Priorition 
+
+     it will worke alone or clearPass, the mobility contorller Authenticate wireless client
+     and include a stateful firewall that can be configured to filter wireless traffic
+
+Mobility controller == Access Devices
+
+Instant Access Points
+---------------------
+
+1. IAP is a system of access in layer2 subnet.
+2. The IAPS are controlled by a single IAP that serves a dual role as both an [IAP and primary virtual controller]
+3. this system can be deployed through a simplified setup process appropriate for smaller orginizations,
+
+
